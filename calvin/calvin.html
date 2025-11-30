@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>eda</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>calvin</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7482,7 +7482,32 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="STAT-301---Group-20">STAT 301 - Group 20<a class="anchor-link" href="#STAT-301---Group-20">¶</a></h1>
+<h1 id="STAT-301---Group-20---Calvin-Du">STAT 301 - Group 20 - Calvin Du<a class="anchor-link" href="#STAT-301---Group-20---Calvin-Du">¶</a></h1>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e2596fd0">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="Section-0:-TA-Feedback">Section 0: TA Feedback<a class="anchor-link" href="#Section-0:-TA-Feedback">¶</a></h1><ul>
+<li>I received 30/30 on Stage 1</li>
+<li>No feedback given</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=51d8617b">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="Section-1:-Data-Description">Section 1: Data Description<a class="anchor-link" href="#Section-1:-Data-Description">¶</a></h1>
 </div>
 </div>
 </div>
@@ -7495,6 +7520,7 @@ a.anchor-link {
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-r"><pre><span></span><span class="nf">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span>
+<span class="nf">library</span><span class="p">(</span><span class="n">broom</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -7614,9 +7640,6 @@ a.anchor-link {
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>
 Number of columns:
-[1] 39
-
-Number of rows:
 [1] 39
 
 Number of rows:
@@ -7767,7 +7790,7 @@ Number of rows:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Scientific-Question">Scientific Question<a class="anchor-link" href="#Scientific-Question">¶</a></h1>
+<h1 id="Section-2:-Scientific-Question">Section 2: Scientific Question<a class="anchor-link" href="#Section-2:-Scientific-Question">¶</a></h1>
 </div>
 </div>
 </div>
@@ -7780,7 +7803,7 @@ Number of rows:
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="The-question-I'll-aim-for-is:">The question I'll aim for is:<a class="anchor-link" href="#The-question-I'll-aim-for-is:">¶</a></h3><p>We want to examine the association between a person's total body water (L) (response) and predictors related to lean mass, gender and body fat ratio and other proportional measurements.</p>
 <p><strong>Response variable:</strong> <code>totalbodywatertbw</code></p>
-<p><strong>Explanatory variables:</strong> <code>leanmasslm</code>, <code>totalbodyfatratiotbfr</code>, <code>gender</code>, <code>height</code>, <code>weight</code>, <code>bmi</code></p>
+<p><strong>Explanatory variables:</strong> <code>leanmasslm</code>, <code>totalbodyfatratiotbfr</code>, <code>gender</code>, <code>height</code>, <code>weight</code>, <code>bodymassindexbmi</code></p>
 <p><strong>Model type:</strong> Multiple Linear Regression</p>
 <p><strong>Focus:</strong> Inference — to identify which body composition features contribute most to totalbodywatertbw</p>
 </div>
@@ -7918,7 +7941,7 @@ Number of rows:
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><strong>Relevancy</strong>:</p>
-<p>This plot is relevant as it let's us explore how much as someone get's more lean mass, how is this assocaited with how much water is in their body. We also want to see how this changes between gender</p>
+<p>This plot is relevant as it let's us explore as someone get's more lean mass, how is this associated with how much water is in their body. We also want to see how this changes between gender.</p>
 </div>
 </div>
 </div>
@@ -7931,7 +7954,7 @@ Number of rows:
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><strong>Results:</strong></p>
 <p>I originally thought that these would have positive relationships but interestingly, the total amount of water decreases with lean mass (negative relationship).</p>
-<p>We can also see that for males, the slope is more significant meaning that for every additional kg of lean mass, there's less L of total water in the body compared to females.</p>
+<p>We can also see that for males, the slope is steeper meaning that for every additional kg of lean mass, there's less Litres of total water in the body compared to females.</p>
 </div>
 </div>
 </div>
@@ -7943,7 +7966,137 @@ Number of rows:
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><strong>What did we learn?</strong></p>
-<p>Overall, the plot indicates that lean mass and total body water are inversely associated, and gender shifts the overall TBW level upward for males relative to females and will also provide a more significant slope. This suggests there's an interaction term here we can look at. I'm also curious on the negative relationship since I thought it would be more mass -&gt; bigger -&gt; more water.</p>
+<p>Overall, the plot indicates that lean mass and total body water are inversely associated, and gender shifts the overall TBW level upward and also affects the slope. This suggests there's an interaction term here we can look at. I'm also curious on the negative relationship since I thought it would be more mass -&gt; bigger -&gt; more water.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ad8d4211">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="Section-4:-Method-and-Plan">Section 4: Method and Plan<a class="anchor-link" href="#Section-4:-Method-and-Plan">¶</a></h1>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=834c826b">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Appropiateness">Appropiateness<a class="anchor-link" href="#Appropiateness">¶</a></h3><p>The method I chose is to use a multiple linear regression model to examine how lean mass, total body fat ratio, gender, height, weight, and BMI are associated with a person’s total body water (totalbodywatertbw).</p>
+<p>This method is appropriate because the response variable is continuous, and the goal is to quantify how several body composition variables collectively explain variation in total body water.</p>
+<h3 id="Assumptions">Assumptions<a class="anchor-link" href="#Assumptions">¶</a></h3><p>The assumptions of this method include linear relationships between factors and the response, independent observations, constant variance of residuals, and approximately normally distributed errors.</p>
+<h3 id="Limitations">Limitations<a class="anchor-link" href="#Limitations">¶</a></h3><p>A potential limitation is that several predictors (height, weight, BMI, and lean mass) may collinear here which can inflate standard errors and might make it hard to interpret the individual coefficients.</p>
+<p>Another limitation is that the model assumes linearity; however, physiological relationships may be nonlinear or involve interactions.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1511a0b8">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="Section-5:-Computational-Code-and-Output">Section 5: Computational Code and Output<a class="anchor-link" href="#Section-5:-Computational-Code-and-Output">¶</a></h1>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=fe46bf3c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-r"><pre><span></span><span class="n">model</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">lm</span><span class="p">(</span><span class="n">totalbodywatertbw</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="n">leanmasslm</span><span class="w"> </span><span class="o">+</span>
+<span class="w">                                 </span><span class="n">totalbodyfatratiotbfr</span><span class="w"> </span><span class="o">+</span>
+<span class="w">                                 </span><span class="n">gender</span><span class="w"> </span><span class="o">+</span>
+<span class="w">                                 </span><span class="n">height</span><span class="w"> </span><span class="o">+</span>
+<span class="w">                                 </span><span class="n">weight</span><span class="w"> </span><span class="o">+</span>
+<span class="w">                                 </span><span class="n">bodymassindexbmi</span><span class="p">,</span>
+<span class="w">            </span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">df</span><span class="p">)</span>
+
+<span class="nf">summary</span><span class="p">(</span><span class="n">model</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> </span><span class="nf">tidy</span><span class="p">(</span><span class="n">conf.int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">TRUE</span><span class="p">)</span>
+<span class="nf">summary</span><span class="p">(</span><span class="n">model</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<table class="dataframe">
+<caption>A tibble: 7 × 7</caption>
+<thead>
+<tr><th scope="col">term</th><th scope="col">estimate</th><th scope="col">std.error</th><th scope="col">statistic</th><th scope="col">p.value</th><th scope="col">conf.low</th><th scope="col">conf.high</th></tr>
+<tr><th scope="col">&lt;chr&gt;</th><th scope="col">&lt;dbl&gt;</th><th scope="col">&lt;dbl&gt;</th><th scope="col">&lt;dbl&gt;</th><th scope="col">&lt;dbl&gt;</th><th scope="col">&lt;dbl&gt;</th><th scope="col">&lt;dbl&gt;</th></tr>
+</thead>
+<tbody>
+<tr><td>(Intercept)          </td><td>11.6370065</td><td>20.29883972</td><td> 0.5732843</td><td>5.668652e-01</td><td>-28.30291949</td><td>51.576932398</td></tr>
+<tr><td>leanmasslm           </td><td> 0.3405964</td><td> 0.15352897</td><td> 2.2184503</td><td>2.724371e-02</td><td>  0.03851333</td><td> 0.642679454</td></tr>
+<tr><td>totalbodyfatratiotbfr</td><td>-0.1268524</td><td> 0.15327550</td><td>-0.8276104</td><td>4.085237e-01</td><td> -0.42843675</td><td> 0.174731934</td></tr>
+<tr><td>genderFemale         </td><td>-2.3025027</td><td> 0.57260186</td><td>-4.0211233</td><td>7.270025e-05</td><td> -3.42915211</td><td>-1.175853290</td></tr>
+<tr><td>height               </td><td>-0.1677497</td><td> 0.07317652</td><td>-2.2923980</td><td>2.254807e-02</td><td> -0.31173158</td><td>-0.023767846</td></tr>
+<tr><td>weight               </td><td> 0.6087874</td><td> 0.07428243</td><td> 8.1955775</td><td>6.525479e-15</td><td>  0.46262955</td><td> 0.754945248</td></tr>
+<tr><td>bodymassindexbmi     </td><td>-0.4063909</td><td> 0.20529236</td><td>-1.9795717</td><td>4.863029e-02</td><td> -0.81032347</td><td>-0.002458424</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>
+Call:
+lm(formula = totalbodywatertbw ~ leanmasslm + totalbodyfatratiotbfr + 
+    gender + height + weight + bodymassindexbmi, data = df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-31.3725  -0.7292   0.2349   0.9275  14.7363 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)           11.63701   20.29884   0.573   0.5669    
+leanmasslm             0.34060    0.15353   2.218   0.0272 *  
+totalbodyfatratiotbfr -0.12685    0.15328  -0.828   0.4085    
+genderFemale          -2.30250    0.57260  -4.021 7.27e-05 ***
+height                -0.16775    0.07318  -2.292   0.0225 *  
+weight                 0.60879    0.07428   8.196 6.53e-15 ***
+bodymassindexbmi      -0.40639    0.20529  -1.980   0.0486 *  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 2.48 on 312 degrees of freedom
+Multiple R-squared:  0.9041,	Adjusted R-squared:  0.9022 
+F-statistic:   490 on 6 and 312 DF,  p-value: &lt; 2.2e-16
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c7eb08e9">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Interpretation">Interpretation<a class="anchor-link" href="#Interpretation">¶</a></h3><p>Lean mass is statistically significant in association with total body water. We can see for each unit increase in leanmasslm, total body water increases by about 0.34L which aligns with physiological expectations since muscle holds substantial water.</p>
+<p>Gender also has a strong effect, where being female is associated with 2.30 L lower total body water compared to males (p = 7.27e-05), reflecting known biological differences in body composition.</p>
+<p>Height, weight, and BMI all show statistically significant effects, but their signs suggest substantial multicollinearity as weight increases total water, while height and BMI decrease it when adjusting for all variables simultaneously implying that we may want to remove one of these to remove that colinearity for better interpretation.</p>
 </div>
 </div>
 </div>
